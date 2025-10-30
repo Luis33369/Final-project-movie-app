@@ -1,0 +1,9 @@
+ body {
+  background-color: #1A1A1A;
+ }
+
+.navbar {
+  --bs-navbar-bg: black;
+  --bs-navbar-color: black;
+  --bs-navbar-hover-color: white;
+}

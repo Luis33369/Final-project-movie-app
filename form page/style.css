@@ -1,0 +1,26 @@
+body {
+  background-color: #1A1A1A;
+}
+.navBar {
+  background-color: black;
+}
+header {
+  outline: none;
+}
+.nav {
+  color: #8C8C8C;
+
+}
+
+.nav:hover {
+  color: white;
+}
+
+#search:focus {
+  border: 2px solid white;
+}
+
+.movieImg {
+  width: 190px;
+  height: 300px;
+}
