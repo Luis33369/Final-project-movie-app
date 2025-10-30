@@ -1,4 +1,4 @@
-### 4. Movie Watchlist App
+### Movie Watchlist App
 
 **Tech:** HTML, CSS, JavaScript  
 **Features:**  
