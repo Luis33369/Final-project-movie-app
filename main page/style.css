@@ -1,12 +1,12 @@
-body {
-  background-color: #1A1A1A;
-}
-.navBar {
-  background-color: black;
-}
-header {
-  outline: none;
-}
+/* body { */
+/*   background-color: #1A1A1A; */
+/* } */
+/* .navBar { */
+/*   background-color: black; */
+/* } */
+/* header { */
+/*   outline: none; */
+/* } */
 .nav {
   color: #8C8C8C;
 
@@ -20,46 +20,53 @@ header {
   border: 2px solid white;
 }
 
-.movieImg {
-  width: 190px;
-  height: 300px;
+
+* {
+		font-family: 'Poppins', sans-serif;
+   }
+ .movie-card{
+	padding: 0 !important;
+	width: 12rem;
+	margin:14px; 
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie-card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 18rem;
+}
+.movie-info{
+	color: #5e5c5c;
 }
 
+.movie-info i{
+	font-size: 15px;
+}
 
-.card {
-  background-color: #9C9C9C;
+.add-fav {
+	background-color: #FFFFFF;
+ 	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 80px;
+	font-size: 27px;
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #000000;
+	cursor: pointer;
+  border-style: none;
   align-items: center;
- /* box-shadow: 0px 20px 100px rgba(0, 0, blue, alpha); */
+  justify-content: center;
 }
+ 
 
-.movie-img {
-  width: 95%;
-  height: 300px;
-  border-radius: 30px 30px 10px 30px;
-  margin: 10px;
-}
-
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
-.btn-add {
-  position: absolute;
-  right: 20px;
-  bottom: 120px;
-  width: 30px;
-  height: 30px;
-  border-radius: 60px;
-}
-
-.card-body {
-  display: flex;
-  flex-direction: row;
-}
-.card-title, .card-text,.year{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 0px;
-}
-
-
-
+  };
