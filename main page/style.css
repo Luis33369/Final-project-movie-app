@@ -7,12 +7,17 @@
 /* header { */
 /*   outline: none; */
 /* } */
-.nav {
-  color: #8C8C8C;
-
+* {
+	font-family: 'Poppins', sans-serif;
+}
+.navBar {
+  background-color: black;
 }
 
-.nav:hover {
+.nav {
+  color: #8C8C8C;
+}
+.navBar:hover {
   color: white;
 }
 
@@ -21,9 +26,6 @@
 }
 
 
-* {
-		font-family: 'Poppins', sans-serif;
-   }
  .movie-card{
 	padding: 0 !important;
 	width: 12rem;
@@ -62,11 +64,23 @@
   justify-content: center;
 }
  
-
+ 
   .card-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 
-  };
+  }
+
+  /* Targeting all form controls */
+.form-control {
+    border-color: #FFFFFF; /* Example: Purple */
+  }
+
+
+/* Changing border color on focus (the blue glow) */
+.form-control:focus {
+    border-color: white;
+    box-shadow: 0 0 0 0.25rem rgba(233, 233, 233, 0.8); /* Adjust box-shadow to match the new border color */
+}  

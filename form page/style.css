@@ -1,7 +1,7 @@
 body {
   background-color: #1A1A1A;
 }
-.navBar {
+.navbar {
   background-color: black;
 }
 header {
@@ -16,16 +16,69 @@ header {
   color: white;
 }
 
-#search:focus {
-  border: 2px solid white;
-}
 
-.movieImg {
-  width: 190px;
-  height: 300px;
-}
+
+
 
 
 h1,h3, label{
   color: white;
 }
+  /* Targeting all form controls */
+.form-control {
+    border-color: #FFFFFF; /* Example: Purple */
+  }
+
+
+/* Changing border color on focus (the blue glow) */
+.form-control:focus {
+    border-color: white;
+    box-shadow: 0 0 0 0.25rem rgba(233, 233, 233, 0.8); /* Adjust box-shadow to match the new border color */
+}  
+
+ .movie-card{
+	padding: 0 !important;
+	width: 12rem;
+	margin:14px; 
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie-card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 18rem;
+}
+.movie-info{
+	color: #5e5c5c;
+}
+
+.movie-info i{
+	font-size: 15px;
+}
+
+.add-fav {
+	background-color: #FFFFFF;
+ 	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 80px;
+	font-size: 27px;
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #000000;
+	cursor: pointer;
+  border-style: none;
+  align-items: center;
+  justify-content: center;
+}
+ 
+ 
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }

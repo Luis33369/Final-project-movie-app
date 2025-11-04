@@ -1,9 +1,161 @@
- body {
-  background-color: #1A1A1A;
- }
-
-.navbar {
-  --bs-navbar-bg: black;
-  --bs-navbar-color: black;
-  --bs-navbar-hover-color: white;
+/* body { */
+/*   background-color: #1A1A1A; */
+/* } */
+/* .navBar { */
+/*   background-color: black; */
+/* } */
+/* header { */
+/*   outline: none; */
+/* } */
+.navBar {
+  background-color: black;
 }
+
+
+.nav {
+  color: #8C8C8C;
+
+}
+
+.nav:hover {
+  color: white;
+}
+
+#search:focus {
+  border: 2px solid white;
+}
+
+
+* {
+		font-family: 'Poppins', sans-serif;
+   }
+ .movie-card{
+	padding: 0 !important;
+	width: 12rem;
+	margin:14px; 
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie-card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 18rem;
+}
+.movie-info{
+	color: #5e5c5c;
+}
+
+.movie-info i{
+	font-size: 15px;
+}
+
+.add-fav {
+	background-color: #FFFFFF;
+ 	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 80px;
+	font-size: 27px;
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #000000;
+	cursor: pointer;
+  border-style: none;
+  align-items: center;
+  justify-content: center;
+}
+ 
+ 
+  .card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+
+  /* Targeting all form controls */
+.form-control {
+    border-color: #FFFFFF; /* Example: Purple */
+  }
+
+
+/* Changing border color on focus (the blue glow) */
+.form-control:focus {
+    border-color: white;
+    box-shadow: 0 0 0 0.25rem rgba(233, 233, 233, 0.8); /* Adjust box-shadow to match the new border color */
+}  
+
+
+#info {
+  align-items: center;
+}
+.detail-img {
+  width: 200px;
+  height: 300px;
+}
+
+
+.detail-card {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url('/img/movie.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-color: #222;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ .movie-card {
+	padding: 0 !important;
+	width: 12rem;
+	margin:14px; 
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 15px 0 rgba(0, 0, 0, 0.19);
+}
+.movie-card img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	height: 18rem;
+}
+.movie-info{
+	color: #5e5c5c;
+}
+
+.movie-info i{
+	font-size: 15px;
+}
+
+.add-fav {
+	background-color: #FFFFFF;
+ 	position: absolute;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 80px;
+	font-size: 27px;
+	padding-left: 12px;
+	padding-top: 12px;
+	color: #000000;
+	cursor: pointer;
+  border-style: none;
+  align-items: center;
+  justify-content: center;
+}
+ 
+ 
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
