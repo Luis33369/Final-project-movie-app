@@ -6,6 +6,9 @@
     <title>Movie Watchlist App</title>
     <link href="css/style.css" rel="stylesheet"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -22,16 +25,16 @@
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav mx-auto me-auto mb-2 mb-lg-0">
                <li class="nav-item"> 
-                  <a href="" class="nav  nav-link">Home</a>
+                  <a href="/main page/index.html" class="nav  nav-link">Home</a>
                </li>
                <li class="nav-item">
-                  <a href="" class="nav  nav-link">Movies</a>
+                  <a href="/movies/index.html" class="nav  nav-link">Movies</a>
                </li>
                <li class="nav-item">
-                 <a href=" " class="nav  nav-link">TV Shows</a>
+                 <a href="/tvshows/index.html" class="nav  nav-link">TV Shows</a>
                </li>
                <li class="nav-item">
-                 <a href=" " class="nav  nav-link">Watchlist</a>
+                 <a href="/watchlist/index.html" class="nav  nav-link">Watchlist</a>
                </li>
              </ul>
            <form class="d-flex" role="search">
@@ -43,47 +46,19 @@
        </nav>
 <!-- NAV BAR END -->
 
-      <div class="position-relative detail-card">
+<div class="position-relative detail-card" id="cardCont">
         <div  class="p-3" id="img">
-          <img class="detail-img" src="https://m.media-amazon.com/images/I/71eHZFw+GlL._UF894,1000_QL80_.jpg" alt="" width="150px" height="200">
+          <img class="detail-img" id="imgDetails" src="" alt="" width="150px" height="200">
         </div>
         <div class="p-3" id="info">
-          <h1 class="fw-bold">Avengers: Infinity war</h1>
-          <p id="category">Adventure, Action, Science Fiction</p>
-          <p id="duration"> 2h 29m</p>
+          <h1 class="fw-bold" id="title"></h1>
+          <p id="genres"></p>
+          <p id="duration"></p>
           <h3>Overview</h3>
-          <p>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</p>
+          <p id="overview"></p>
         </div>
       </div>
     
-
-      <div class="container mt-5">
-        <h2 class="text-center">Movies</h2>
-        <div class="row justify-content-center">
-          <div class="card movie-card">
-               <img class="card-img-top" src="https://m.media-amazon.com/images/I/71eHZFw+GlL._UF894,1000_QL80_.jpg" alt="" width="150px" height="200">
-               <div class="card-body">
-                 <button class="btn btn-outline-secondary add-fav" id="addFav"   type="button">
-                    <i class="bi bi-plus-circle-fill "  data-bs-toggle="tooltip" data-placement='bottom' title="Add to Favorite"></i>
-                 </button>
-                    <!-- <i class="bi bi-plus-circle-fill add-fav" id="addFav" data-bs-toggle="tooltip" data-placement='bottom' title="Add to Favorite"></i> -->
-                 <h5 class="card-title">Avengers</h5>
-                 <div class="card-info">
-                    <span class="movie-info">2019</span>
-                    <span class="movie-info float-right"><i class="bi bi-star-fill"></i> 9 / 10</span>
-                 </div>
-
-               </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-
-
-
 
 
 
